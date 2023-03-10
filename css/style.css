@@ -130,7 +130,7 @@ img.share-button:hover {
 	width: 32px;
 	padding: 10px;
 	display: inline-block;
-  cursor: pointer;
+  	cursor: pointer;
 	float: right;
 	margin-bottom: 20px;
 	margin-top: 172px;
@@ -193,7 +193,7 @@ div.icon-bar {
 }
 
 .parent {
-	float: left;
+  float: left;
   position: relative;
   top: 168px;
   left: -66px;
@@ -202,8 +202,8 @@ div.icon-bar {
   position: relative;
   top: 0;
   left: 690px;
-	width: 315px;
-	height: 60px;
+  width: 315px;
+  height: 60px;
 }
 
 p.resume-title {
