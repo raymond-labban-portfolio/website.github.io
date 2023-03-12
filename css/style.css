@@ -333,6 +333,8 @@ span.resume {
   font-size: 16px;
   border: none;
 	cursor: pointer;
+	box-shadow: 2px 2px 4px #000000;
+	filter: drop-shadow(2px 2px 4px #000000);
 }
 
 .dropdown {
@@ -357,7 +359,9 @@ span.resume {
 }
 
 .dropdown-content a:hover {background-color: #ddd;}
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {display: block;
+box-shadow: 2px 2px 4px #000000;
+filter: drop-shadow(2px 2px 4px #000000);}
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 .home {
@@ -385,6 +389,8 @@ video.thumb {
 	margin-right: 30px;
 	margin-top: 40px;
 	width: 300px;
+	box-shadow: 2px 2px 4px #000000;
+	filter: drop-shadow(2px 2px 4px #000000);
 }
 
 img.thumb {
@@ -393,6 +399,8 @@ img.thumb {
 	float: left;
 	margin-right: 30px;
 	margin-top: 40px;
+	box-shadow: 2px 2px 4px #000000;
+	filter: drop-shadow(2px 2px 4px #000000);
 }
 
 .playable {
