@@ -55,8 +55,7 @@ table {
 /*---------------------Structure---------------------*/
 
 html {
-	background-image: url(../images/misc/texture.jpeg);
-	background-color: rgba(255, 255, 255, 70%);
+	background-image: url(../images/misc/texture.jpg);
 	background-size: cover;
 	background-blend-mode: overlay;
 
