@@ -632,7 +632,7 @@ footer {
 	 }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
 	body {
 	 	width: 1000px;
 	 	border: 1px solid #414141;
