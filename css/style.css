@@ -543,6 +543,19 @@ p.indent {
 	100% {opacity: 1;}
 }
 
+.dropdown-home {
+	animation: fadeIn 2s, growNav 3s;
+}
+
+@keyframes growNav {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
 /*---------------------Web Slideshow------------------*/
 
 .slideshow {
