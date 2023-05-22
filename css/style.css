@@ -98,9 +98,19 @@ section {
 	background-color: rgba(0, 0, 200, 80%);
   }
 
+/*---------------------Anchor Links---------------------*/
 
+a:link, a:visited {
+	color: inherit;
+	font-weight: inherit;
+}
 
- /*---------------------Navigation Bar---------------------*/
+a:hover {
+	color: white;
+	font-weight: bold;
+	text-decoration: underline;
+}
+/*---------------------Navigation Bar---------------------*/
 
  .montage {
  	width: 100%;
@@ -119,6 +129,12 @@ section {
    font-size: 16px;
    border: none;
  	cursor: pointer;
+ }
+
+ .dropbtn:hover {
+	 color: white;
+	 font-weight: bold;
+	 text-decoration: underline;
  }
 
  .dropdown {
@@ -601,11 +617,6 @@ a {
 	color: #bc9126;
 	font-weight: bold;
 	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: underline;
-	color: #99821f;
 }
 
 p {
