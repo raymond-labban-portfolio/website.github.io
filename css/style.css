@@ -146,6 +146,55 @@ section {
  .dropdown:hover .dropdown-content {display: block;}
  .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
+/*---------------------Homepage Navigation Bar---------------------*/
+
+  .dropbtn-home {
+    background-color: #04AA6D;
+		background-size: 100px;
+    color: white;
+    padding: 100px;
+  	margin-right: 30px;
+    font-size: 16px;
+    border: none;
+  	cursor: pointer;
+  }
+
+  .dropdown-home {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content-home {
+    display: none;
+    position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+    background-color: #f1f1f1;
+    max-width: 351.5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content-home a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content-home a:hover {background-color: #ddd;}
+  .dropdown-home:hover .dropdown-content-home {display: block; text-align: center;}
+  .dropdown-home:hover .dropbtn-home {background-color: #3e8e41;}
+
+	div.scroll-txt-home {
+		height: 220px;
+		overflow-y: scroll;
+		background-color: white;
+		box-shadow: 2px 2px 4px #000000;
+	}
+
 /*---------------------PDF Toolbar------------------------*/
 
 .popup {
