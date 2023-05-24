@@ -16,8 +16,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
 }
 blockquote, q {
 	quotes: none;
@@ -55,7 +54,7 @@ table {
 /*---------------------Structure---------------------*/
 
 html {
-	background-image: url(../images/misc/texture.jpg);
+	/background-image: url(../images/misc/texture.jpg);
 	/background-color: rgba(255, 255, 255, 70%);
 	background-size: cover;
 	background-blend-mode: overlay;
@@ -65,14 +64,27 @@ html {
 .raylablogo {
 	width: 150px;
 	float: left;
-	margin-left: -60px;
-	margin-top: -60px;
+	margin-left: -25px;
+	margin-top: -25px;
+}
+
+span {
+	text-align: center;
 }
 
 header {
 	color: #fcfbc2;
-	padding: 70px;
-	margin-bottom: 50px;
+	padding: 30px;
+	padding-bottom: 1px;
+	margin-bottom: -30px;
+}
+
+p.name {
+	background-color: turquoise;
+	color: purple;
+	font-weight: bold;
+	text-decoration: underline;
+	margin: 20px;
 }
 
 body {
@@ -86,7 +98,7 @@ div#page-wrap {
  	width: 1000px;
  	margin: 50px auto;
  	padding: 30px;
- 	border: 1px solid #414141;
+ 	/border: 1px solid #414141;
  	box-sizing: border-box;
  }
 
@@ -110,6 +122,11 @@ a:hover {
 	font-weight: bold;
 	text-decoration: underline;
 }
+
+div.table-contents {
+
+}
+
 /*---------------------Navigation Bar---------------------*/
 
  .montage {
@@ -120,6 +137,11 @@ a:hover {
  	align-items: center;
  	justify-content: center;
  }
+
+nav {
+	background-color: orange;
+	padding: 40px;
+}
 
  .dropbtn {
    background-color: #04AA6D;
@@ -437,7 +459,13 @@ filter: drop-shadow(2px 2px 4px #000000);}
 	margin-top: 20px;
 }
 
-/*----------------Portfolio Entries----------------*/
+/*-------------------Portfolio Entries-------------------*/
+
+h1.title {
+	text-align: center;
+	margin-bottom: -60px;
+
+}
 
 h4.title {
 	margin-top: 150px;
@@ -671,11 +699,6 @@ img.fairey {
 	float: left;
 	margin-right: 30px;
 	width: 50%;
-}
-
-li {
-	width: 15%;
-	float: left;
 }
 
 p.center {
