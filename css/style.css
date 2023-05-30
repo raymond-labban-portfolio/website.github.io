@@ -108,6 +108,11 @@ section {
 	background-color: rgba(0, 0, 200, 80%);
   }
 
+a:hover {
+	color: white;
+	text-decoration: underline;
+	}
+
 /*---------------------Anchor Links---------------------*/
 
 a:link, a:visited {
@@ -115,9 +120,8 @@ a:link, a:visited {
 	font-weight: inherit;
 }
 
-a:hover {
-	color: white;
-	font-weight: bold;
+a.link:hover {
+	color: purple;
 	text-decoration: underline;
 }
 
@@ -139,6 +143,7 @@ div.table-contents {
 nav {
 	background-color: orange;
 	padding: 40px;
+	filter: drop-shadow(2px 2px 4px #000000);
 }
 
  .dropbtn {
@@ -198,6 +203,7 @@ nav {
   .dropdown-home {
     position: relative;
     display: inline-block;
+		filter: drop-shadow(2px 2px 4px #000000);
   }
 
   .dropdown-content-home {
@@ -210,6 +216,8 @@ nav {
     background-color: #f1f1f1;
     max-width: 351.5px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		box-shadow: 2px 2px 4px #000000;
+		filter: drop-shadow(2px 2px 4px #000000);
     z-index: 1;
   }
 
@@ -455,6 +463,66 @@ filter: drop-shadow(2px 2px 4px #000000);}
 
 .thumb {
 	margin-top: 20px;
+}
+
+/*----------------------Contact Form----------------------*/
+
+.asterisk {
+	color: #FF0000;
+}
+
+/*----------------------Services Page----------------------*/
+
+p.exp {
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.website-exp {
+	width: 100px;
+	margin-right: 40px;
+	margin-top: 20px;
+	margin-bottom: -20px;
+	box-shadow: 2px 2px 4px #000000;
+	filter: drop-shadow(2px 2px 4px #000000);
+}
+
+.web-name-exp {
+	font-size: 10px;
+	text-align: left;
+	text-decoration: underline;
+	color: blue;
+	display: inline-block;
+}
+
+.web-name-exp:hover {
+	color: purple;
+	font-weight: normal;
+}
+
+.logo-exp {
+	width: 150px;
+	margin-right: 40px;
+	margin-top: 20px;
+	box-shadow: 2px 2px 4px #000000;
+	filter: drop-shadow(2px 2px 4px #000000);
+}
+
+.poster-exp {
+	height: 200px;
+	width: 150px;
+	margin-right: 40px;
+	margin-top: 20px;
+	box-shadow: 2px 2px 4px #000000;
+	filter: drop-shadow(2px 2px 4px #000000);
+}
+
+.cover-exp {
+	width: 150px;
+	margin-right: 40px;
+	margin-top: 20px;
+	box-shadow: 2px 2px 4px #000000;
+	filter: drop-shadow(2px 2px 4px #000000);
 }
 
 /*-------------------Portfolio Entries-------------------*/
