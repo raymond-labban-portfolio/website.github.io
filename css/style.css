@@ -525,6 +525,20 @@ p.exp {
 	filter: drop-shadow(2px 2px 4px #000000);
 }
 
+/*-------------------Skillset Entries-------------------*/
+
+img.exp-icon {
+	float: left;
+	margin-right: 40px;
+}
+
+.skill-exp {
+	width: 100px;
+	margin-right: 40px;
+	box-shadow: 2px 2px 4px #000000;
+	filter: drop-shadow(2px 2px 4px #000000);
+}
+
 /*-------------------Portfolio Entries-------------------*/
 
 h1.title {
