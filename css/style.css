@@ -529,6 +529,7 @@ p.exp {
 
 h4.table-contents {
 	margin-top: -30px;
+	margin-bottom: 10px;
 	text-align: center;
 }
 
@@ -539,21 +540,43 @@ div.s-t-o-c {
 
 nav.skill-table-contents {
 	text-align: center;
+	margin-top: 110px;
 	padding-bottom: 150px;
-	margin-top: -2px;
-	width: 500px;
-	height: 50px;
+	padding-right: 0px;
+	width: 450px;
+	height: 20px;
 }
 
 div.skill-table-contents {
 	float: left;
 	text-align: left;
 	column-count: 2;
-	column-gap: 100px;
+	column-gap: 55px;
+}
+
+nav.back-table-contents {
+	text-align: center;
+	padding-bottom: 150px;
+	margin-top: -2px;
+	margin-right: -100px;
+	width: 250px;
+	height: 50px;
+}
+
+div.back-table-contents {
+	float: center;
+	text-align: left;
+	column-count: 2;
+	padding: 0;
+	margin: 0;
 }
 
 div.relative {
 	position: relative;
+}
+
+h2.top-skill {
+	margin-bottom: 10px;
 }
 
 img.skill-icon {
