@@ -658,6 +658,10 @@ img.exp-icon {
 	filter: drop-shadow(2px 2px 4px #000000);
 }
 
+ p.exp-display {
+	 display: none;
+ }
+
 /*-------------------Portfolio Entries-------------------*/
 
 h1.title {
