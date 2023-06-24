@@ -400,11 +400,7 @@ iframe.resume {
 	 width: 100%;
 	 height: 500px;
 	 display: inline-block;
-}
-
-span.resume {
-	width: 100%;
-	height: 500px;
+	 outline: solid black;
 }
 
 /*---------------------Navigation Bar---------------------*/
