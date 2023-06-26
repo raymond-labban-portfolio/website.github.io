@@ -17,42 +17,42 @@
       <p class="name">Raymond Labban</p>
     </header>
     <nav>
+  <div>
     <div class="dropdown">
-      <button class="dropbtn">Coding/Programming</button>
-      <div class="dropdown-content">
-      <a href="webprogram.html">Websites</a>
-        <a href="interactive.html">Interactive Multimedia</a>
-        <a href="computergames.html">Computer Games</a>
-        <a href="circuitpython.html">CircuitPython</a>
+      <button class="dropbtn"><a href="https://raymond-labban-portfolio.github.io/website.github.io/#company-itself">About The Company</a></button>
+      <div class="dropdown-content scroll-txt-home">
+        <a href="history.html">History/Mission Statement</a>
+        <a href="services.html">Services</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="raylabwork.html">Past Client Projects</a>
       </div>
     </div>
     <div class="dropdown">
-      <button class="dropbtn">WordPress/GitHub</button>
-      <div class="dropdown-content">
-      <a href="webdeveloper.html">Web Developer</a>
-        <a href="webmaster.html">Webmaster</a>
-        <a href="webinternship.html">Internship Experience</a>
-        <a href="webvolunteer.html">Volunteer Work</a>
-      </div>
+      <button class="dropbtn"><a href="services.html">Services</a></button>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn"><a href="https://raymond-labban-portfolio.github.io/website.github.io/#portfolio">Portfolio</a></button>
     </div>
       <div class="dropdown">
-        <button class="dropbtn">Graphic Design</button>
-        <div class="dropdown-content">
-          <a href="logos.html">Logo Designs</a>
-          <a href="posters.html">Poster Designs</a>
-          <a href="covers.html">Cover Art Designs</a>
-          <a href="artconcepts.html">Art Concepts</a>
+        <button class="dropbtn" style="padding-right: 100px; padding-left: 100px;">Skillset</button>
+        <div class="dropdown-content scroll-txt-home">
+          <a href="adobe.html">Adobe Creative Cloud</a>
+          <a href="webedit.html">Web Editors</a>
+          <a href="ide.html">IDEs</a>
+          <a href="front.html">Frontend Programming</a>
+          <a href="back.html">Backend Programming</a>
+          <a href="full.html">Full-Stack Programming</a>
+          <a href="micro.html">Microsoft Office 365</a>
+          <a href="social.html">Social Media</a>
         </div>
-      </div>
+        </div>
       <div class="dropdown">
-        <button class="dropbtn">Videos & Animations</button>
-        <div class="dropdown-content">
-        <a href="videos.html">Videos</a>
-        <a href="animations.html">Animations</a>
-        </div>
+        <a href="contact.html"><button class="dropbtn">Contact Me</button></a>
+      </div>
         <div class="dropdown">
-          <a href="index.html"><button class="dropbtn">About Me</button></a>
+          <a href="about.html"><button class="dropbtn">About Me</button></a>
         </div>
+      </div>
     </nav>
     <div id="page-wrap" class="clearfix">
       <main>
@@ -65,6 +65,97 @@
         <br>
         <h2>Business:</h2>
           <h2>contact@raylabwebservices.com</h2>
+
+
+
+          <h1>Contact</h1>
+
+          <form method="post" action="send-email.php">
+              <label for="name"><span class="asterisk">* </span>Name:</label>
+              <input type="text" name="name" id="name" required>
+<br>
+              <label for="email"><span class="asterisk">* </span>Email:</label>
+              <input type="email" name="email" id="email" required>
+<br>
+              <label for="subject"><span class="asterisk">* </span>Subject:</label><br>
+<div style="float: left">
+              <input type="radio" id="subject" name="subject" value="Freelance" required>
+              <label for="subject">Freelance</label><br>
+              <input type="radio" id="Contract" name="subject" value="Contract">
+              <label for="subject">Contract</label><br>
+              <input type="radio" id="part-time" name="subject" value="Part-Time" required>
+              <label for="subject">Part-Time</label><br>
+              <input type="radio" id="full-time" name="subject" value="Full-Time">
+              <label for="subject">Full-Time</label><br>
+</div>
+
+</script>
+<div style="float: left; padding-left: 30px">
+  <fieldset disabled>
+              <input type="checkbox" id="subject" name="subject" value="Web Development--" required>
+              <label for="subject">Web Development</label><br>
+              <input type="checkbox" id="subject" name="subject" value="Graphic Design--">
+              <label for="subject">Graphic Design</label><br>
+              <input type="checkbox" id="subject" name="subject" value="Web Development & Graphic Design--" required>
+              <label for="subject">Both</label><br>
+  </fieldset>
+</div>
+<div style="float: left; padding-left: 30px">
+  <fieldset disabled>
+              <input type="checkbox" id="subject" name="subject" value="/WordPress" required>
+              <label for="subject">WordPress</label><br>
+              <input type="checkbox" id="subject" name="subject" value="/Full-Stack Programming">
+              <label for="subject">Full-Stack Programming</label><br>
+              <input type="checkbox" id="subject" name="subject" value="/Logo" required>
+              <label for="subject">Logo</label><br>
+              <input type="checkbox" id="subject" name="subject" value="/Poster">
+              <label for="subject">Poster</label><br>
+              <input type="checkbox" id="subject" name="subject" value="/Cover Art">
+              <label for="subject">Cover Art</label><br>
+  </fieldset>
+</div>
+
+<script type="text/javascript">
+
+let get= document.getElementById("subject")
+
+get.addEventListener("keydown", (e) =>{
+
+if(e.key == ""){
+
+get.disabled = false
+
+}
+
+else if(e.key == "Enter"){
+
+get.disabled = true
+
+}
+
+})
+
+
+<script>
+function disable() {
+   document.getElementById("subject").disabled = true; } function enable() { document.getElementById("subject").disabled = false; } </script>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+        <div>
+              <label for="message"><span class="asterisk">* </span>Message:</label>
+              <br>
+              <textarea name="message" id="message" style="min-width: 600px; min-height: 200px; font-size: 15px" required></textarea>
+
+              <br>
+
+              <button>Send</button>
+        </div>
+          </form>
       </main>
     </div>
     <footer>
