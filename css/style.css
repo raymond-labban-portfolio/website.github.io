@@ -81,11 +81,21 @@ p.name {
 	margin: 20px;
 }
 
+button.skillbtn {
+	padding-right: 100px;
+	padding-left: 100px;
+}
+
 body {
 	 font-family: 'Merriweather', serif;
 	 font-size: 18px;
 	 line-height: 1.5;
  }
+
+body.back-image {
+	background-image: url('../images/misc/IndexCodeLight.png');
+	background-color: #edebeb;
+}
 
 div#page-wrap {
  	width: 1000px;
@@ -100,12 +110,45 @@ section {
 
 a:hover {
 	text-decoration: underline;
-	}
+ }
+
+footer {
+	height: 300px;
+ 	padding-bottom: 20px;
+	background-color: #096e6e;
+	border-top: 4mm groove #ced6d5;
+	color: #fcfbc2;
+	filter: drop-shadow(2px 2px 20px #000000);
+ }
+
+div.column {
+ 	float: center;
+	column-count: 3;
+	column-gap: 200px;
+	column-span: none;
+	column-rule: 5px solid #41b3a3;
+ }
+
+div.right {width: 75%; top: -50px;}
+
+p.middle {width: 50%; top: -50px;}
+
+p.left {width: 25%; top: -50px;}
+
+p.footer-center {
+	text-align: center;
+}
+
+.under-construction {
+	text-align: center;
+	font-size: 100px;
+	color: red;
+ }
 
 /*---------------------Color Scheme---------------------*/
 
 header {color: #fcfbc2;} /*light-yellow  text*/
-.home {background-color: #096e6e;} /*Blue header*/
+.home {background-color: #096e6e;} /*Dark-Turquoise Header*/
 .dropbtn {color: white; filter: drop-shadow(2px 2px 4px #000000);}
 .dropbtn {background-color: #41b3a3;} /*Turquoise dropdown button*/
 .dropdown:hover .dropbtn {background-color: #4db8a9;}
@@ -115,7 +158,7 @@ header {color: #fcfbc2;} /*light-yellow  text*/
 .dropdown-content-home {color: black;}
 p.name{visibility: hidden;} /*RAYMOND LABBAN text in header*/
 p.name {background-color: #e27d60;} /*RAYMOND LABBAN text background in header*/
-nav {background-color: #ced6d5;} /*Brown Background*/
+nav {background-color: #ced6d5;} /*Light-Grey Background*/
 a {color: black;}
 .share-btn {color: #ffffff;}
 div.icon-bar {color: #4f75b3;}
@@ -124,7 +167,6 @@ p.icon-bar {background-color: #4f75b3;}
 .dropdown-content {background-color: #f1f1f1;}
 .dropbtn-home {background-color: #41b3a3;}
 .dropdown-content-home {background-color: #f1f1f1;}
-body {background-color: rgba(255, 255, 255, 0%);}
 
 .dropbtn:hover {color: white;}
 a:hover {color: white;}
@@ -521,6 +563,10 @@ div.center-txt {
 	text-align: center;
 }
 
+p.center-txt {
+	text-align: center;
+}
+
 p.exp {
 	font-style: italic;
 	text-decoration: underline;
@@ -671,6 +717,26 @@ img.exp-icon {
 	float: left;
 	margin-right: 40px;
 	filter: drop-shadow(2px 2px 4px #000000);
+  text-align: justify;
+  width: 200px;
+}
+
+img.qr-icon {
+	float: right;
+	margin-right: 40px;
+	filter: drop-shadow(2px 2px 4px #000000);
+}
+
+p.attr {
+    display: block;
+    margin: 0 auto;
+		padding-top: 10px;
+		text-align: left;
+		font-size: 10px;
+}
+
+p.username {
+	font-weight: bold;
 }
 
 .skill-exp {
@@ -928,20 +994,6 @@ img.fairey {
 
 p.center {
 	text-align: center;
-}
-
-footer p {
-	margin-bottom: 0;
-}
-
-footer {
-	margin-bottom: 50px;
-}
-
-.under-construction {
-	text-align: center;
-	font-size: 100px;
-	color: red;
 }
 
 /*----------------Media Queries-----------------*/
