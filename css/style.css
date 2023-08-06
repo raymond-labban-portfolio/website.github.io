@@ -733,10 +733,15 @@ p.attr {
 		padding-top: 10px;
 		text-align: left;
 		font-size: 10px;
+		line-height: 2px;
 }
 
 p.username {
+	margin-top: 20px;
+	margin-bottom: 120px;
+	display: center;
 	font-weight: bold;
+	font-size: 40px;
 }
 
 .skill-exp {
